@@ -1,0 +1,21 @@
+import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { StyledSocialIcons } from "./styles/SocialIcons.styled";
+const SocialIcons = () => {
+  return (
+    <StyledSocialIcons>
+      <li>
+        <a href="https://twitter.com/home">
+          <FaTwitter />
+        </a>
+        <a href="https://facebook.com">
+          <FaFacebook />
+        </a>
+        <a href="https://linkedin.com">
+          <FaLinkedin />
+        </a>
+      </li>
+    </StyledSocialIcons>
+  );
+};
+
+export default SocialIcons;
